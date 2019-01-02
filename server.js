@@ -16,13 +16,8 @@ app.get('/', function(request, response) {
   response.sendFile(__dirname + '/views/index.html');
 });
 
-// http://expressjs.com/en/starter/basic-routing.html
-app.get('/imglist',function(request,response){
-  response.send(imgList)
-})
-
 var imgList = [
-  __dirname + 'petownericon1.png',
+  'petownericon1.png',
   'petownericon2.png',
   'petownericon3.png'
 ]

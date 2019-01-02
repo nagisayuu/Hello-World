@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>PWAサンプル</title>
+    <link id="favicon" rel="icon" href="https://gomix.com/favicon-app.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.2/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="/manifest.json">
+  </head>
+  
+  <body>
+    <h1>サンプルPWAサイト</h1>
+    
+    <img src="https://cdn.glitch.com/49ca9b34-fba3-4df5-95e8-efa78fe7697b%2Fpwa_logo.svg?1545628138771">
+       
+    
+    <script>
+        navigator.serviceWorker.register('/sw.js').then(function(){
+          console.log("サービスワーカーの登録成功")
+        }).catch(function(err) {
+          console.log("サービスワーカーの登録失敗",err)
+        })
+    </script>
+  </body>
+</html>

@@ -1,5 +1,6 @@
 dependencies:
   express: 4.16.3
+  material-kit: 2.0.4
   vue: 2.5.21
 packages:
   /accepts/1.3.5:
@@ -192,6 +193,10 @@ packages:
       node: '>= 0.10'
     resolution:
       integrity: sha1-4/o1e3c9phnybpXwSdBVxyeW+Gs=
+  /material-kit/2.0.4:
+    dev: false
+    resolution:
+      integrity: sha512-YtcRcqV0s7iByigCfcoHqtrUgXaicyYyZYikn6cdUuKdPdYvQplOUvUgvzmNTvDPcZXzLt8MUk9YfpWWOGISOQ==
   /media-typer/0.3.0:
     dev: false
     engines:
@@ -372,4 +377,5 @@ shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
 specifiers:
   express: ^4.16.3
+  material-kit: ^2.0.4
   vue: ^2.5.21
